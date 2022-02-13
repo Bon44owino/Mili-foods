@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keyword" content="Java House,Glovo Foods,KFC">
+    <meta name="Descripition" content="Have a look at mili foods">
+    <meta name="Author" content="Boniface Owino">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--Bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!---font awesome-->
+  <script src="https://kit.fontawesome.com/00d8228e55.js" crossorigin="anonymous"></script>
+   <!--custom css-->
+   <link rel="stylesheet" href="style.css">
+    <title>Mili foods</title>
+</head>
+<body>
+    <!-- Navbar section begins -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h2  class="text-white">Mili foods</h2></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="./index.html"><h4 class="text-white">Home</h4></a>
+              <a class="nav-link" href="./products.html"><h4 class="text-white">products</h4></a>
+              <a class="nav-link" href="./order.html"><h4 class="text-white">Order</h4></a>
+              <a class="nav-link" href="./order.html"><h4 class="text-white">Deals</h4></a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar section ends -->
+    <!-- Carrousel starts -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/ella.jpg" class="d-block w-100" alt="..." img-fluid>
+            <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: yellowgreen;" class=" py-3"> <strong>Order healthy and fresh food</strong></h1>
+                <form class="d-flex py-4">
+                    <input class="form-control me-2" type="search" placeholder="Search Recipe here!" aria-label="Search">
+                    <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+                  </form>
+              <h5 >Mixed Dishes</h5>
+              <p>Have a taste of our well prepared mixed dishes.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/chad.jpg" class="d-block w-100" alt="..."img-fluid>
+            <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: yellowgreen;" class="  py-3"><strong>Order healthy and fresh food</strong></h1>
+                <form class="d-flex py-4">
+                    <input class="form-control me-2" type="search" placeholder="Search Recipe here!" aria-label="Search">
+                    <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+                  </form>
+              <h5>Pizza</h5>
+              <p>the best pizzas are the ones we eat with friends.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/Chocoo.jpg" class="d-block w-100" alt="..."img-fluid>
+            <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: yellowgreen;" class=" py-3"> <strong>Order healthy and fresh food</strong></h1>
+                <form class="d-flex py-4">
+                    <input class="form-control me-2" type="search" placeholder="Search Recipe here!" aria-label="Search">
+                    <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+                  </form>
+              <h5>Milkshake</h5>
+              <p>Life is better with a sweet and icy drink in your hand.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Carousel ends -->
+    <h5  class="text-center py-2" style="color: blue;" ><strong>Top Foods</strong></h5>
+    <h1 class="text-dark text-center"><strong>Our Products</strong></h1>
+<section class="hang">
+    <div class="row">
+        <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/images/Chicky.png" class="card-img-top" alt="..." img-fluid>
+            <div class="card-body">
+              <h5 class="card-title">Chicken Recipes</h5>
+              <p class="card-text">We have the best chicken recipees prepared by professionals.</p>
+              <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+            </div>
+          </div>
+        </div>
+        <!-- second card starts -->
+        <!-- first card starts -->
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/pasta.png" class="card-img-top" alt="..." img-fluid>
+                <div class="card-body">
+                  <h5 class="card-title">Pasta</h5>
+                  <p class="card-text">Different kinds of pasta available.Order today and live a healthy life.</p>
+                  <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                </div>
+              </div>
+            </div>
+            <!-- first card ends -->
+
+            <!-- second card ends -->
+            <!-- third card starts -->
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/burgers.png" class="card-img-top" alt="..." img-fluid>
+                    <div class="card-body">
+                      <h5 class="card-title">Burgers</h5>
+                      <p class="card-text">Have a taste of our awesome burgers today .</p>
+                      <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- third card ends -->
+
+    </div>
+</section>
+<section>
+    <div class="row py-2">
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/pitza.png" class="card-img-top" alt="..." img-fluid>
+                <div class="card-body">
+                  <h5 class="card-title">Tasty food Pizza</h5>
+                  <p class="card-text">Well prepared pizza.Good to enjoy with friends and familly</p>
+                  <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                </div>
+              </div>
+            </div>
+     
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/desserts.png" class="card-img-top" alt="..." img-fluid>
+                    <div class="card-body">
+                      <h5 class="card-title">Deserts</h5>
+                      <p class="card-text">Tantalizing desserts foe everyone.Get some today</p>
+                      <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/drinks.jpg" class="card-img-top" alt="..." img-fluid>
+                        <div class="card-body">
+                          <h5 class="card-title">Drinks</h5>
+                          <p class="card-text">Amazing cool drinks that will chill you and your loved ones.</p>
+                          <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+</section>
+
+<section class="mjengo">
+  <h1 class="text-dark text text-center"><strong>Orders</strong></h1>
+  <div class="row">
+    <div class="col-lg-6">
+      <h1 class="text-dark text text-center"><strong>Get your order 24/7 <br> Right at your Doorsteps</strong></h1>
+      <p class="text-dark">Plant-based diets may offer an advantage over those that are not plant based with respect to prevention and management of diabetes. the adventist health studies found that vegetarians have approximately half the risk of developing diabetes</p>
+      <a href="./order2.html" class="btn btn-warning text-white me-5">Order Now</a>
+      <a href="./order2.html" class="btn btn-warning text-white">Search</a>
+
+    </div>
+    <div class="col-lg-6">
+      <img src="assets/images/Dota.png" alt="" img-fluid>
+
+    </div>
+    
+
+  </div>
+</section>
+<!-- New section begins -->
+
+<!-- New section ends -->
+<section class="Way">
+  <h5 style="color: blue;" class="text-center"><strong>OFFERS</strong></h5>
+  <h2 style="color: yellow;" class="text-center"><strong>Super Delicious Deals</strong></h2>
+    <div class="row py-2">
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/fandago.png" class="card-img-top" alt="..." img-fluid>
+                <div class="card-body">
+                  <h5 class="card-title">Fadago burger</h5>
+                  <p class="card-text">Well prepared pizza.Good to enjoy with friends and familly</p>
+                  <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                </div>
+              </div>
+            </div>
+     
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/howdy.png" class="card-img-top" alt="..." img-fluid>
+                    <div class="card-body">
+                      <h5 class="card-title">Howdy Humburger</h5>
+                      <p class="card-text">Tantalizing desserts foe everyone.Get some today</p>
+                      <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/crispy.png" class="card-img-top" alt="..." img-fluid>
+                        <div class="card-body">
+                          <h5 class="card-title">Crispy fry burger</h5>
+                          <p class="card-text">Amazing cool drinks that will chill you and your loved ones.</p>
+                          <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+
+  
+
+</section>
+
+<section class="Rub">
+    <div class="row py-2">
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/cheddar.png" class="card-img-top" alt="..." img-fluid>
+                <div class="card-body">
+                  <h5 class="card-title">Chedder Cheese Burger</h5>
+                  <p class="card-text">Well prepared pizza.Good to enjoy with friends and familly</p>
+                  <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                </div>
+              </div>
+            </div>
+     
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/double.png" class="card-img-top" alt="..." img-fluid>
+                    <div class="card-body">
+                      <h5 class="card-title">Double Cheesed Burger</h5>
+                      <p class="card-text">Tantalizing desserts foe everyone.Get some today</p>
+                      <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/wrangler.png" class="card-img-top" alt="..." img-fluid>
+                        <div class="card-body">
+                          <h5 class="card-title">Wrangler Burger</h5>
+                          <p class="card-text">Amazing cool drinks that will chill you and your loved ones.</p>
+                          <a href="./order2.html" class="btn btn-warning text-white">See more</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+
+  
+
+</section>
+<section class="Dry">
+  <h5 style="color: blue;" class="text-center"><strong>Pizza Deals</strong></h5>
+  <h2 style="color: yellow;" class="text-center"><strong>Super Delicious Deals</strong></h2>
+    <div class="row py-2">
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/combo.jpg" class="card-img-top" alt="..." img-fluid>
+                <div class="card-body">
+                  <h5 class="card-title">Pizza family Combo</h5>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h5></h5><strong>K̶E̶S̶ ̶1̶4̶0̶0̶.̶0̶0̶</strong></h5>
+                      
+                    </div>
+                    <div class="col-lg-6 py-2">
+                  <h5 style="color: yellow;"><strong>KES 1400</strong></h5>
+
+                      
+                      
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/pep.jpeg" class="card-img-top" alt="..." img-fluid>
+                    <div class="card-body">
+                      <h5 class="card-title">Cauliflower pizza</h5>
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h5></h5><strong>K̶E̶S̶ ̶5̶5̶0̶.̶0̶0̶</strong></h5>
+                          
+                        </div>
+                        <div class="col-lg-6 py-2">
+                      <h5 style="color: yellow;"><strong>KES 500.00</strong></h5>
+
+                          
+                          
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/famu.png" class="card-img-top" alt="..." img-fluid>
+                        <div class="card-body">
+                          <h5 class="card-title">Pizza  combo</h5>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <h5></h5><strong>K̶E̶S̶ ̶1̶0̶0̶0̶.̶0̶0̶</strong></h5>
+                              
+                            </div>
+                            <div class="col-lg-6 py-2">
+                          <h5 style="color: yellow;"><strong>KES 800.00</strong></h5>
+    
+                              
+                              
+                            </div>
+    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+
+  
+
+</section>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+</body>
+</html>
